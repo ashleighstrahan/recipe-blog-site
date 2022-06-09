@@ -8,13 +8,7 @@ body {
 
 h1 {
   font-size: 72px;
-}
-
-h3 {
-  color: var(--body-text-color);
-  font-size: 28px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  font-weight: 700;
 }
 
 .hero-heading-overlay {
@@ -40,6 +34,51 @@ h3 {
   display: block;
   margin: 100px auto;
   max-width: 1160px;
+}
+
+.recipe-container h3 {
+  color: var(--body-text-color);
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.about-page {
+  max-width: 960px;
+}
+
+.about-page h1 {
+  margin-top: 80px;
+}
+
+.about-me-content {
+  margin-top: 80px;
+}
+
+.about-me-content h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.about-me-content p {
+  margin-top: 36px;
+}
+
+.favorite-recipes {
+  margin: 90px auto;
+  display: block;
+  max-width: 1160px;
+}
+
+.favorite-recipes h4 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.favorite-recipes p {
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .footer-container {
@@ -81,5 +120,22 @@ h3 {
   .recipe-container {
     margin-top: 50px;
     text-align: center;
+  }
+  .about-page h1 {
+    font-size: 48px;
+    margin-top: 38px;
+  }
+  .about-me-content h2 {
+    font-size: 32px;
+    margin-top: 28px;
+    padding-bottom: 5px;
+  }
+  .about-me-content p {
+    margin-top: 18px;
+  }
+  .favorite-recipes {
+    margin: 55px auto;
+    text-align: center;
+    line-height: 1;
   }
 }

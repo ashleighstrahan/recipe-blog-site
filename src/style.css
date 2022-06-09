@@ -70,7 +70,7 @@ hr {
 }
 
 .favorite-recipes {
-  margin: 90px auto;
+  margin: 100px auto;
   display: block;
   max-width: 1160px;
 }
@@ -124,6 +124,10 @@ hr {
 .recipes p {
   margin-top: 14px;
   line-height: 30px;
+}
+
+.contact-me {
+  height: 87vh;
 }
 
 .contact-me h1 {
@@ -191,10 +195,13 @@ hr {
     font-size: 48px;
     margin-top: 38px;
   }
+  .about-me-content {
+    margin-top: 50px;
+  }
   .about-me-content h2 {
     font-size: 32px;
     margin-top: 28px;
-    padding-bottom: 5px;
+    padding: 0 0 5px;
   }
   .about-me-content p {
     margin-top: 18px;
@@ -214,5 +221,18 @@ hr {
     text-align: center;
     font-size: 26px;
     margin-bottom: 20px;
+  }
+  .contact-me {
+    height: 100%;
+  }
+  .contact-me h1 {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  .contact-content {
+    margin: 20px auto 370px;
+  }
+  .contact-content h4 {
+    margin: 25px auto 15px;
   }
 }

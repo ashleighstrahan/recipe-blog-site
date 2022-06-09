@@ -74,12 +74,12 @@ h3 {
   h3 {
     font-size: 18px;
   }
-  .recipe-container {
-    margin-top: 50px;
-    text-align: center;
-  }
   img {
     display: block;
     margin: 10px auto 0;
+  }
+  .recipe-container {
+    margin-top: 50px;
+    text-align: center;
   }
 }

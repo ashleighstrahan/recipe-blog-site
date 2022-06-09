@@ -1,1 +1,85 @@
-/*font-family: 'Nunito', sans-serif;*/
+:root {
+  --body-text-color: #272142;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h3 {
+  color: var(--body-text-color);
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.hero-heading-overlay {
+  background-image: url(/images/overlay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffff;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.hero-heading-overlay h1 {
+  margin-bottom: 0;
+  padding: 47px 0 4px;
+}
+
+.hero-heading-overlay h2 {
+  font-size: 24px;
+  padding: 0 440px 46px;
+}
+
+.recipe-container {
+  display: block;
+  margin: 100px auto;
+  max-width: 1160px;
+}
+
+.footer-container {
+  background-color: #f9f7fe;
+  height: 100px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.social-media-links {
+  color: var(--body-text-color);
+  font-size: 16px;
+  padding-top: 41px;
+  text-align: center;
+}
+
+@media (max-width: 1320px) {
+  .hero-heading-overlay h2 {
+    padding: 0 0 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    padding-top: 47px;
+  }
+  h2 {
+    font-size: 14px;
+    padding: 0 75px 26px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .recipe-container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: 10px auto 0;
+  }
+}

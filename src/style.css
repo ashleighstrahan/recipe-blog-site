@@ -153,16 +153,26 @@ hr {
 }
 
 .footer-container {
+  color: #272142;
   background-color: #f9f7fe;
   height: 100px;
   margin-bottom: 0;
   width: 100%;
 }
 
+.footer-container a {
+  color: #662eed;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
 .social-media-links {
   color: var(--body-text-color);
   font-size: 16px;
-  padding-top: 41px;
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -195,6 +205,12 @@ hr {
   .about-page h1 {
     font-size: 48px;
     margin-top: 38px;
+  }
+  .about-page h2 {
+    text-align: center;
+  }
+  .about-page p {
+    text-align: center;
   }
   .about-me-content {
     margin-top: 50px;
@@ -235,5 +251,10 @@ hr {
   }
   .contact-content h4 {
     margin: 25px auto 15px;
+  }
+  .footer-container span {
+    font-size: small;
+    text-align: center;
+    margin-right: auto;
   }
 }
